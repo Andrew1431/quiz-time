@@ -1,5 +1,6 @@
 import React from 'react';
 import QuestionItem from './QuestionItem';
+import './Question.css';
 
 export default class Question extends React.Component {
   render() {

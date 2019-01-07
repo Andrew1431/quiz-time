@@ -1,0 +1,25 @@
+div.question-item {
+  width: 100%;
+  display: flex;
+  padding: 6px;
+  border: 1px solid #cccccc;
+  margin-bottom: 6px;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.15s linear;
+}
+
+div.question-item:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+div.question-item-letter {
+  font-size: 18px;
+  color: grey;
+}
+
+div.question-item-value {
+  font-size: 18px;
+  margin-left: 16px;
+}

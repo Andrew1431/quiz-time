@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import './Results.css';
 
 export default class Results extends React.Component {
   /**
